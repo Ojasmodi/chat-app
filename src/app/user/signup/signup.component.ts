@@ -65,7 +65,7 @@ export class SignupComponent implements OnInit {
         mobile: this.mobile,
         email: this.email,
         password: this.password,
-        apiKey: this.apiKey
+        authToken: this.apiKey
       };
 
       console.log(data);

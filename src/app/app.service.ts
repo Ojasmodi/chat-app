@@ -22,7 +22,7 @@ export class AppService {
       .set('mobile', data.mobile)
       .set('email', data.email)
       .set('password', data.password)
-      .set('apikey', data.apiKey);
+      .set('authToken', data.authToken);
 
     return this.http.post(`${this.url}/api/v1/users/signup`, params);
   }
